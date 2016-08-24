@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/TableLayout_newColDef">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView android:layout_width="150dp" android:layout_height="wrap_content"  android:text="Name" android:background="@drawable/cell_shape" android:padding="5dp"/>
+                    <TextView android:layout_width="105dp" android:layout_height="wrap_content"  android:text="Type" android:background="@drawable/cell_shape" android:padding="5dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Length/Values" android:background="@drawable/cell_shape" android:padding="5dp" />
+                    <TextView android:layout_width="100dp" android:layout_height="wrap_content"  android:text="Default" android:background="@drawable/cell_shape" android:padding="5dp" />
+                    <TextView android:layout_width="150dp" android:layout_height="wrap_content"  android:text="Defined Default" android:background="@drawable/cell_shape" android:padding="5dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Null" android:background="@drawable/cell_shape" android:padding="5dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="A_I" android:background="@drawable/cell_shape" android:padding="5dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/button_cancel_edit_column"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:id="@+id/button_save_edited_col"/>
+
+    </LinearLayout>
+
+</LinearLayout>

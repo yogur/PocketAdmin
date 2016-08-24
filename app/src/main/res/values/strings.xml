@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Pocket Admin</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="masterPwd"></string>
+
+    <string-array name="SQL_types">
+        <item>INT</item>
+        <item>VARCHAR</item>
+        <item>CHAR</item>
+        <item>TEXT</item>
+        <item>DATE</item>
+        <item>DATETIME</item>
+        <item>FLOAT</item>
+        <item>DECIMAL</item>
+        <item>DOUBLE</item>
+        <item>BIT</item>
+    </string-array>
+
+    <string-array name="default_values">
+        <item>None</item>
+        <item>NULL</item>
+        <item>As defined:</item>
+    </string-array>
+</resources>
